@@ -6,7 +6,7 @@ row itself. Unique, never changed, deleted and restored with its row. For
 addresses people scan or type: `https://example.com/c/BK7Q2MX4`.
 
 ```clojure
-io.github.p4ulcristian/groundwork-short-codes {:git/tag "v0.1.0" :git/sha "…"}
+io.github.p4ulcristian/groundwork-short-codes {:git/tag "v0.1.0" :git/sha "f726bd3"}
 ```
 
 ## What an app declares
