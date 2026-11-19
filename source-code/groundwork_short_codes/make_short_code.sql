@@ -2,7 +2,7 @@
 -- `random_length` characters from 31 (A-Z without I, L, O; 2-9). Each
 -- character comes from two bytes of a fresh gen_random_uuid() (Postgres's
 -- strong random, no extension), so 65536 % 31 leaves a bias of 2 in 65536.
-CREATE OR REPLACE FUNCTION groundwork_short_codes_make_code(letter text, random_length integer)
+CREATE OR REPLACE FUNCTION public.groundwork_short_codes_make_code(letter text, random_length integer)
 RETURNS text
 LANGUAGE plpgsql
 VOLATILE

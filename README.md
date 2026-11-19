@@ -30,7 +30,7 @@ and the trigger that fills it (groundwork-postgres table maps):
 A row inserted without a code gets one; a row that comes with one keeps it.
 A table with rows adds the column `{:optional? true}` first, fills the old
 rows with a change file
-(`UPDATE batches SET batch__short_code = groundwork_short_codes_make_code('B', 7)`),
+(`UPDATE batches SET batch__short_code = public.groundwork_short_codes_make_code('B', 7)`),
 and makes it required in a later deploy.
 
 ## The api
