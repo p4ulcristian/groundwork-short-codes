@@ -5,7 +5,7 @@
 
  :deps
  {;; the server's half: a savepoint around inserts that may meet a code clash
-  io.github.p4ulcristian/groundwork-postgres {:git/tag "v0.5.5" :git/sha "ad7d8c1f5634ced4f4c70d729a24b817835349bb"}}
+  io.github.p4ulcristian/groundwork-postgres {:git/tag "v0.5.6" :git/sha "fd9b132"}}
 
  :aliases
  {;; the tests:  clojure -X:test  (the Postgres ones need POSTGRES_TEST_PORT, see README.md)
